@@ -1,0 +1,543 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0E756B731EB4E8160006A7E0 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E756B721EB4E8160006A7E0 /* AppDelegate.swift */; };
+		0E756B751EB4E8160006A7E0 /* FirstViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E756B741EB4E8160006A7E0 /* FirstViewController.swift */; };
+		0E756B771EB4E8160006A7E0 /* SecondViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E756B761EB4E8160006A7E0 /* SecondViewController.swift */; };
+		0E756B7A1EB4E8160006A7E0 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0E756B781EB4E8160006A7E0 /* Main.storyboard */; };
+		0E756B7C1EB4E8160006A7E0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0E756B7B1EB4E8160006A7E0 /* Assets.xcassets */; };
+		0E756B7F1EB4E8160006A7E0 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0E756B7D1EB4E8160006A7E0 /* LaunchScreen.storyboard */; };
+		0E756B8A1EB4E8170006A7E0 /* GirlsOnlyComicBooksTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E756B891EB4E8170006A7E0 /* GirlsOnlyComicBooksTests.swift */; };
+		0E756B951EB4E8170006A7E0 /* GirlsOnlyComicBooksUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E756B941EB4E8170006A7E0 /* GirlsOnlyComicBooksUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		0E756B861EB4E8170006A7E0 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 0E756B671EB4E8150006A7E0 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 0E756B6E1EB4E8150006A7E0;
+			remoteInfo = GirlsOnlyComicBooks;
+		};
+		0E756B911EB4E8170006A7E0 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 0E756B671EB4E8150006A7E0 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 0E756B6E1EB4E8150006A7E0;
+			remoteInfo = GirlsOnlyComicBooks;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0E756B6F1EB4E8160006A7E0 /* GirlsOnlyComicBooks.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GirlsOnlyComicBooks.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		0E756B721EB4E8160006A7E0 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		0E756B741EB4E8160006A7E0 /* FirstViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirstViewController.swift; sourceTree = "<group>"; };
+		0E756B761EB4E8160006A7E0 /* SecondViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondViewController.swift; sourceTree = "<group>"; };
+		0E756B791EB4E8160006A7E0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		0E756B7B1EB4E8160006A7E0 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		0E756B7E1EB4E8160006A7E0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		0E756B801EB4E8170006A7E0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0E756B851EB4E8170006A7E0 /* GirlsOnlyComicBooksTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GirlsOnlyComicBooksTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		0E756B891EB4E8170006A7E0 /* GirlsOnlyComicBooksTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GirlsOnlyComicBooksTests.swift; sourceTree = "<group>"; };
+		0E756B8B1EB4E8170006A7E0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0E756B901EB4E8170006A7E0 /* GirlsOnlyComicBooksUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GirlsOnlyComicBooksUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		0E756B941EB4E8170006A7E0 /* GirlsOnlyComicBooksUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GirlsOnlyComicBooksUITests.swift; sourceTree = "<group>"; };
+		0E756B961EB4E8170006A7E0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		0E756B6C1EB4E8150006A7E0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0E756B821EB4E8170006A7E0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0E756B8D1EB4E8170006A7E0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0E756B661EB4E8150006A7E0 = {
+			isa = PBXGroup;
+			children = (
+				0E756B711EB4E8160006A7E0 /* GirlsOnlyComicBooks */,
+				0E756B881EB4E8170006A7E0 /* GirlsOnlyComicBooksTests */,
+				0E756B931EB4E8170006A7E0 /* GirlsOnlyComicBooksUITests */,
+				0E756B701EB4E8160006A7E0 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		0E756B701EB4E8160006A7E0 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				0E756B6F1EB4E8160006A7E0 /* GirlsOnlyComicBooks.app */,
+				0E756B851EB4E8170006A7E0 /* GirlsOnlyComicBooksTests.xctest */,
+				0E756B901EB4E8170006A7E0 /* GirlsOnlyComicBooksUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		0E756B711EB4E8160006A7E0 /* GirlsOnlyComicBooks */ = {
+			isa = PBXGroup;
+			children = (
+				0E756B721EB4E8160006A7E0 /* AppDelegate.swift */,
+				0E756B741EB4E8160006A7E0 /* FirstViewController.swift */,
+				0E756B761EB4E8160006A7E0 /* SecondViewController.swift */,
+				0E756B781EB4E8160006A7E0 /* Main.storyboard */,
+				0E756B7B1EB4E8160006A7E0 /* Assets.xcassets */,
+				0E756B7D1EB4E8160006A7E0 /* LaunchScreen.storyboard */,
+				0E756B801EB4E8170006A7E0 /* Info.plist */,
+			);
+			path = GirlsOnlyComicBooks;
+			sourceTree = "<group>";
+		};
+		0E756B881EB4E8170006A7E0 /* GirlsOnlyComicBooksTests */ = {
+			isa = PBXGroup;
+			children = (
+				0E756B891EB4E8170006A7E0 /* GirlsOnlyComicBooksTests.swift */,
+				0E756B8B1EB4E8170006A7E0 /* Info.plist */,
+			);
+			path = GirlsOnlyComicBooksTests;
+			sourceTree = "<group>";
+		};
+		0E756B931EB4E8170006A7E0 /* GirlsOnlyComicBooksUITests */ = {
+			isa = PBXGroup;
+			children = (
+				0E756B941EB4E8170006A7E0 /* GirlsOnlyComicBooksUITests.swift */,
+				0E756B961EB4E8170006A7E0 /* Info.plist */,
+			);
+			path = GirlsOnlyComicBooksUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		0E756B6E1EB4E8150006A7E0 /* GirlsOnlyComicBooks */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0E756B991EB4E8170006A7E0 /* Build configuration list for PBXNativeTarget "GirlsOnlyComicBooks" */;
+			buildPhases = (
+				0E756B6B1EB4E8150006A7E0 /* Sources */,
+				0E756B6C1EB4E8150006A7E0 /* Frameworks */,
+				0E756B6D1EB4E8150006A7E0 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = GirlsOnlyComicBooks;
+			productName = GirlsOnlyComicBooks;
+			productReference = 0E756B6F1EB4E8160006A7E0 /* GirlsOnlyComicBooks.app */;
+			productType = "com.apple.product-type.application";
+		};
+		0E756B841EB4E8170006A7E0 /* GirlsOnlyComicBooksTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0E756B9C1EB4E8170006A7E0 /* Build configuration list for PBXNativeTarget "GirlsOnlyComicBooksTests" */;
+			buildPhases = (
+				0E756B811EB4E8170006A7E0 /* Sources */,
+				0E756B821EB4E8170006A7E0 /* Frameworks */,
+				0E756B831EB4E8170006A7E0 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				0E756B871EB4E8170006A7E0 /* PBXTargetDependency */,
+			);
+			name = GirlsOnlyComicBooksTests;
+			productName = GirlsOnlyComicBooksTests;
+			productReference = 0E756B851EB4E8170006A7E0 /* GirlsOnlyComicBooksTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		0E756B8F1EB4E8170006A7E0 /* GirlsOnlyComicBooksUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0E756B9F1EB4E8170006A7E0 /* Build configuration list for PBXNativeTarget "GirlsOnlyComicBooksUITests" */;
+			buildPhases = (
+				0E756B8C1EB4E8170006A7E0 /* Sources */,
+				0E756B8D1EB4E8170006A7E0 /* Frameworks */,
+				0E756B8E1EB4E8170006A7E0 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				0E756B921EB4E8170006A7E0 /* PBXTargetDependency */,
+			);
+			name = GirlsOnlyComicBooksUITests;
+			productName = GirlsOnlyComicBooksUITests;
+			productReference = 0E756B901EB4E8170006A7E0 /* GirlsOnlyComicBooksUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		0E756B671EB4E8150006A7E0 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0830;
+				LastUpgradeCheck = 0830;
+				ORGANIZATIONNAME = bdp;
+				TargetAttributes = {
+					0E756B6E1EB4E8150006A7E0 = {
+						CreatedOnToolsVersion = 8.3.1;
+						DevelopmentTeam = 95TL8MY33U;
+						ProvisioningStyle = Automatic;
+					};
+					0E756B841EB4E8170006A7E0 = {
+						CreatedOnToolsVersion = 8.3.1;
+						DevelopmentTeam = 95TL8MY33U;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 0E756B6E1EB4E8150006A7E0;
+					};
+					0E756B8F1EB4E8170006A7E0 = {
+						CreatedOnToolsVersion = 8.3.1;
+						DevelopmentTeam = 95TL8MY33U;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 0E756B6E1EB4E8150006A7E0;
+					};
+				};
+			};
+			buildConfigurationList = 0E756B6A1EB4E8150006A7E0 /* Build configuration list for PBXProject "GirlsOnlyComicBooks" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 0E756B661EB4E8150006A7E0;
+			productRefGroup = 0E756B701EB4E8160006A7E0 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				0E756B6E1EB4E8150006A7E0 /* GirlsOnlyComicBooks */,
+				0E756B841EB4E8170006A7E0 /* GirlsOnlyComicBooksTests */,
+				0E756B8F1EB4E8170006A7E0 /* GirlsOnlyComicBooksUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		0E756B6D1EB4E8150006A7E0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0E756B7F1EB4E8160006A7E0 /* LaunchScreen.storyboard in Resources */,
+				0E756B7C1EB4E8160006A7E0 /* Assets.xcassets in Resources */,
+				0E756B7A1EB4E8160006A7E0 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0E756B831EB4E8170006A7E0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0E756B8E1EB4E8170006A7E0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		0E756B6B1EB4E8150006A7E0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0E756B771EB4E8160006A7E0 /* SecondViewController.swift in Sources */,
+				0E756B731EB4E8160006A7E0 /* AppDelegate.swift in Sources */,
+				0E756B751EB4E8160006A7E0 /* FirstViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0E756B811EB4E8170006A7E0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0E756B8A1EB4E8170006A7E0 /* GirlsOnlyComicBooksTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0E756B8C1EB4E8170006A7E0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0E756B951EB4E8170006A7E0 /* GirlsOnlyComicBooksUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		0E756B871EB4E8170006A7E0 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 0E756B6E1EB4E8150006A7E0 /* GirlsOnlyComicBooks */;
+			targetProxy = 0E756B861EB4E8170006A7E0 /* PBXContainerItemProxy */;
+		};
+		0E756B921EB4E8170006A7E0 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 0E756B6E1EB4E8150006A7E0 /* GirlsOnlyComicBooks */;
+			targetProxy = 0E756B911EB4E8170006A7E0 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		0E756B781EB4E8160006A7E0 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				0E756B791EB4E8160006A7E0 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		0E756B7D1EB4E8160006A7E0 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				0E756B7E1EB4E8160006A7E0 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		0E756B971EB4E8170006A7E0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		0E756B981EB4E8170006A7E0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		0E756B9A1EB4E8170006A7E0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 95TL8MY33U;
+				INFOPLIST_FILE = GirlsOnlyComicBooks/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = bdp.GirlsOnlyComicBooks;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		0E756B9B1EB4E8170006A7E0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 95TL8MY33U;
+				INFOPLIST_FILE = GirlsOnlyComicBooks/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = bdp.GirlsOnlyComicBooks;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+		0E756B9D1EB4E8170006A7E0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = 95TL8MY33U;
+				INFOPLIST_FILE = GirlsOnlyComicBooksTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = bdp.GirlsOnlyComicBooksTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/GirlsOnlyComicBooks.app/GirlsOnlyComicBooks";
+			};
+			name = Debug;
+		};
+		0E756B9E1EB4E8170006A7E0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = 95TL8MY33U;
+				INFOPLIST_FILE = GirlsOnlyComicBooksTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = bdp.GirlsOnlyComicBooksTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/GirlsOnlyComicBooks.app/GirlsOnlyComicBooks";
+			};
+			name = Release;
+		};
+		0E756BA01EB4E8170006A7E0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				DEVELOPMENT_TEAM = 95TL8MY33U;
+				INFOPLIST_FILE = GirlsOnlyComicBooksUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = bdp.GirlsOnlyComicBooksUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = GirlsOnlyComicBooks;
+			};
+			name = Debug;
+		};
+		0E756BA11EB4E8170006A7E0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				DEVELOPMENT_TEAM = 95TL8MY33U;
+				INFOPLIST_FILE = GirlsOnlyComicBooksUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = bdp.GirlsOnlyComicBooksUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = GirlsOnlyComicBooks;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		0E756B6A1EB4E8150006A7E0 /* Build configuration list for PBXProject "GirlsOnlyComicBooks" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0E756B971EB4E8170006A7E0 /* Debug */,
+				0E756B981EB4E8170006A7E0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		0E756B991EB4E8170006A7E0 /* Build configuration list for PBXNativeTarget "GirlsOnlyComicBooks" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0E756B9A1EB4E8170006A7E0 /* Debug */,
+				0E756B9B1EB4E8170006A7E0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		0E756B9C1EB4E8170006A7E0 /* Build configuration list for PBXNativeTarget "GirlsOnlyComicBooksTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0E756B9D1EB4E8170006A7E0 /* Debug */,
+				0E756B9E1EB4E8170006A7E0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		0E756B9F1EB4E8170006A7E0 /* Build configuration list for PBXNativeTarget "GirlsOnlyComicBooksUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0E756BA01EB4E8170006A7E0 /* Debug */,
+				0E756BA11EB4E8170006A7E0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 0E756B671EB4E8150006A7E0 /* Project object */;
+}
