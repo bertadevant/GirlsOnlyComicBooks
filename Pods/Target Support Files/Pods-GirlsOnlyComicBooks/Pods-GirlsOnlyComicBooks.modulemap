@@ -1,0 +1,6 @@
+framework module Pods_GirlsOnlyComicBooks {
+  umbrella header "Pods-GirlsOnlyComicBooks-umbrella.h"
+
+  export *
+  module * { export * }
+}

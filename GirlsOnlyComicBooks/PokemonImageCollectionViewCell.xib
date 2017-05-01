@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="12120" systemVersion="16E195" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="12088"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="PokemonImageCollectionViewCell" customModule="GirlsOnlyComicBooks" customModuleProvider="target"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="iN0-l3-epB" customClass="PokemonImageCollectionViewCell" customModule="GirlsOnlyComicBooks" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="375" height="302"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="kpQ-sy-7vB">
+                    <rect key="frame" x="0.0" y="0.0" width="375" height="302"/>
+                </imageView>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="XTl-ay-Wdd">
+                    <rect key="frame" x="10" y="271" width="42" height="21"/>
+                    <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                    <nil key="textColor"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="NhK-8u-T6k">
+                    <rect key="frame" x="323" y="271" width="42" height="21"/>
+                    <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                    <nil key="textColor"/>
+                    <nil key="highlightedColor"/>
+                </label>
+            </subviews>
+            <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+            <constraints>
+                <constraint firstItem="kpQ-sy-7vB" firstAttribute="centerY" secondItem="iN0-l3-epB" secondAttribute="centerY" id="2nY-87-I4A"/>
+                <constraint firstItem="kpQ-sy-7vB" firstAttribute="height" secondItem="iN0-l3-epB" secondAttribute="height" id="A5z-Ki-3PD"/>
+                <constraint firstItem="kpQ-sy-7vB" firstAttribute="centerX" secondItem="iN0-l3-epB" secondAttribute="centerX" id="Fmd-5g-RJj"/>
+                <constraint firstAttribute="bottom" secondItem="NhK-8u-T6k" secondAttribute="bottom" constant="10" id="LrY-mm-IXE"/>
+                <constraint firstItem="XTl-ay-Wdd" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leading" constant="10" id="Pe3-Iq-sCT"/>
+                <constraint firstAttribute="bottom" secondItem="XTl-ay-Wdd" secondAttribute="bottom" constant="10" id="bpl-NB-FrP"/>
+                <constraint firstAttribute="trailing" secondItem="NhK-8u-T6k" secondAttribute="trailing" constant="10" id="mzS-T8-cws"/>
+                <constraint firstItem="kpQ-sy-7vB" firstAttribute="width" secondItem="iN0-l3-epB" secondAttribute="width" id="vce-Cl-ogq"/>
+            </constraints>
+            <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+            <connections>
+                <outlet property="pokemonName" destination="XTl-ay-Wdd" id="lMN-ZL-Moc"/>
+                <outlet property="pokemonNumber" destination="NhK-8u-T6k" id="tMG-MN-aFt"/>
+                <outlet property="pokemonSprite" destination="kpQ-sy-7vB" id="hdu-rA-bq1"/>
+            </connections>
+            <point key="canvasLocation" x="33.5" y="-129"/>
+        </view>
+    </objects>
+</document>

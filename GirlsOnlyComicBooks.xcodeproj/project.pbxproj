@@ -7,14 +7,48 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		05ED9FD5C4EC582D728C1A28 /* Pods_GirlsOnlyComicBooksUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 414BFF352349CE0CF5F9C51F /* Pods_GirlsOnlyComicBooksUITests.framework */; };
 		0E756B731EB4E8160006A7E0 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E756B721EB4E8160006A7E0 /* AppDelegate.swift */; };
-		0E756B751EB4E8160006A7E0 /* FirstViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E756B741EB4E8160006A7E0 /* FirstViewController.swift */; };
-		0E756B771EB4E8160006A7E0 /* SecondViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E756B761EB4E8160006A7E0 /* SecondViewController.swift */; };
+		0E756B751EB4E8160006A7E0 /* CollectionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E756B741EB4E8160006A7E0 /* CollectionViewController.swift */; };
+		0E756B771EB4E8160006A7E0 /* SearchFilterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E756B761EB4E8160006A7E0 /* SearchFilterViewController.swift */; };
 		0E756B7A1EB4E8160006A7E0 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0E756B781EB4E8160006A7E0 /* Main.storyboard */; };
 		0E756B7C1EB4E8160006A7E0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0E756B7B1EB4E8160006A7E0 /* Assets.xcassets */; };
 		0E756B7F1EB4E8160006A7E0 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0E756B7D1EB4E8160006A7E0 /* LaunchScreen.storyboard */; };
 		0E756B8A1EB4E8170006A7E0 /* GirlsOnlyComicBooksTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E756B891EB4E8170006A7E0 /* GirlsOnlyComicBooksTests.swift */; };
 		0E756B951EB4E8170006A7E0 /* GirlsOnlyComicBooksUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E756B941EB4E8170006A7E0 /* GirlsOnlyComicBooksUITests.swift */; };
+		0E94E1CB1EB5CB88003F9C4D /* ComicBookModels.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E94E1CA1EB5CB88003F9C4D /* ComicBookModels.swift */; };
+		0E94E1CC1EB5CB88003F9C4D /* ComicBookModels.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E94E1CA1EB5CB88003F9C4D /* ComicBookModels.swift */; };
+		0E94E1CE1EB5F08B003F9C4D /* PokemonModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E94E1CD1EB5F08B003F9C4D /* PokemonModel.swift */; };
+		0E94E1CF1EB5F08B003F9C4D /* PokemonModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E94E1CD1EB5F08B003F9C4D /* PokemonModel.swift */; };
+		0E94E1D21EB60684003F9C4D /* SearchFilterViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E94E1D11EB60684003F9C4D /* SearchFilterViewModel.swift */; };
+		0E94E1D31EB60684003F9C4D /* SearchFilterViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E94E1D11EB60684003F9C4D /* SearchFilterViewModel.swift */; };
+		0E94E1D51EB6069B003F9C4D /* CollectionViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E94E1D41EB6069B003F9C4D /* CollectionViewModel.swift */; };
+		0E94E1D61EB6069B003F9C4D /* CollectionViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E94E1D41EB6069B003F9C4D /* CollectionViewModel.swift */; };
+		0E94E1E71EB63939003F9C4D /* AlamoFireHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E94E1E41EB63939003F9C4D /* AlamoFireHandler.swift */; };
+		0E94E1E81EB63939003F9C4D /* AlamoFireHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E94E1E41EB63939003F9C4D /* AlamoFireHandler.swift */; };
+		0E94E1E91EB63939003F9C4D /* DictionaryOfStrings.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E94E1E51EB63939003F9C4D /* DictionaryOfStrings.swift */; };
+		0E94E1EA1EB63939003F9C4D /* DictionaryOfStrings.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E94E1E51EB63939003F9C4D /* DictionaryOfStrings.swift */; };
+		0E94E1EB1EB63939003F9C4D /* JsonParser.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E94E1E61EB63939003F9C4D /* JsonParser.swift */; };
+		0E94E1EC1EB63939003F9C4D /* JsonParser.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E94E1E61EB63939003F9C4D /* JsonParser.swift */; };
+		0E94E1F01EB647EB003F9C4D /* ShowFilteredResultsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E94E1EF1EB647EB003F9C4D /* ShowFilteredResultsViewController.swift */; };
+		0E94E1F11EB647EB003F9C4D /* ShowFilteredResultsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E94E1EF1EB647EB003F9C4D /* ShowFilteredResultsViewController.swift */; };
+		0E94E1F31EB6484C003F9C4D /* TopResultsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E94E1F21EB6484C003F9C4D /* TopResultsViewController.swift */; };
+		0E94E1F41EB6484C003F9C4D /* TopResultsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E94E1F21EB6484C003F9C4D /* TopResultsViewController.swift */; };
+		0E94E1F61EB64885003F9C4D /* ResultDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E94E1F51EB64885003F9C4D /* ResultDetailViewController.swift */; };
+		0E94E1F71EB64885003F9C4D /* ResultDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E94E1F51EB64885003F9C4D /* ResultDetailViewController.swift */; };
+		0E94E1F91EB6499D003F9C4D /* PokemonCollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0E94E1F81EB6499D003F9C4D /* PokemonCollectionViewCell.xib */; };
+		0E94E1FA1EB6499D003F9C4D /* PokemonCollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0E94E1F81EB6499D003F9C4D /* PokemonCollectionViewCell.xib */; };
+		0E94E1FC1EB64A78003F9C4D /* PokemonCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E94E1FB1EB64A78003F9C4D /* PokemonCollectionViewCell.swift */; };
+		0E94E1FD1EB64A78003F9C4D /* PokemonCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E94E1FB1EB64A78003F9C4D /* PokemonCollectionViewCell.swift */; };
+		0E94E1FF1EB64FB4003F9C4D /* StyleConstants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E94E1FE1EB64FB4003F9C4D /* StyleConstants.swift */; };
+		0E94E2011EB65A5A003F9C4D /* PokemonImageCollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0E94E2001EB65A5A003F9C4D /* PokemonImageCollectionViewCell.xib */; };
+		0E94E2031EB65A7B003F9C4D /* PokemonImageCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E94E2021EB65A7B003F9C4D /* PokemonImageCollectionViewCell.swift */; };
+		0E94E2051EB730FD003F9C4D /* TypeCategoryCollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0E94E2041EB730FD003F9C4D /* TypeCategoryCollectionViewCell.xib */; };
+		0E94E2071EB731A1003F9C4D /* TypeCategoryCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E94E2061EB731A1003F9C4D /* TypeCategoryCollectionViewCell.swift */; };
+		0E94E2091EB7547C003F9C4D /* DetailPokemonView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0E94E2081EB7547C003F9C4D /* DetailPokemonView.xib */; };
+		0E94E20B1EB7576E003F9C4D /* PokemonDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E94E20A1EB7576E003F9C4D /* PokemonDetailView.swift */; };
+		3C8C364A6415BDE3313E0348 /* Pods_GirlsOnlyComicBooksTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E29C3A7F3BAB7CC760219712 /* Pods_GirlsOnlyComicBooksTests.framework */; };
+		9233862CA15AAD209A1EAA16 /* Pods_GirlsOnlyComicBooks.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 588A0218F820270BABBFEC21 /* Pods_GirlsOnlyComicBooks.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,10 +69,11 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		0D5AFA77DC508DF0446D2F6F /* Pods-GirlsOnlyComicBooksUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GirlsOnlyComicBooksUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-GirlsOnlyComicBooksUITests/Pods-GirlsOnlyComicBooksUITests.debug.xcconfig"; sourceTree = "<group>"; };
 		0E756B6F1EB4E8160006A7E0 /* GirlsOnlyComicBooks.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GirlsOnlyComicBooks.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		0E756B721EB4E8160006A7E0 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		0E756B741EB4E8160006A7E0 /* FirstViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirstViewController.swift; sourceTree = "<group>"; };
-		0E756B761EB4E8160006A7E0 /* SecondViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondViewController.swift; sourceTree = "<group>"; };
+		0E756B741EB4E8160006A7E0 /* CollectionViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CollectionViewController.swift; sourceTree = "<group>"; };
+		0E756B761EB4E8160006A7E0 /* SearchFilterViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchFilterViewController.swift; sourceTree = "<group>"; };
 		0E756B791EB4E8160006A7E0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		0E756B7B1EB4E8160006A7E0 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		0E756B7E1EB4E8160006A7E0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -49,6 +84,33 @@
 		0E756B901EB4E8170006A7E0 /* GirlsOnlyComicBooksUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GirlsOnlyComicBooksUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		0E756B941EB4E8170006A7E0 /* GirlsOnlyComicBooksUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GirlsOnlyComicBooksUITests.swift; sourceTree = "<group>"; };
 		0E756B961EB4E8170006A7E0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0E94E1CA1EB5CB88003F9C4D /* ComicBookModels.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ComicBookModels.swift; sourceTree = "<group>"; };
+		0E94E1CD1EB5F08B003F9C4D /* PokemonModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PokemonModel.swift; sourceTree = "<group>"; };
+		0E94E1D11EB60684003F9C4D /* SearchFilterViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SearchFilterViewModel.swift; sourceTree = "<group>"; };
+		0E94E1D41EB6069B003F9C4D /* CollectionViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CollectionViewModel.swift; sourceTree = "<group>"; };
+		0E94E1E41EB63939003F9C4D /* AlamoFireHandler.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AlamoFireHandler.swift; sourceTree = "<group>"; };
+		0E94E1E51EB63939003F9C4D /* DictionaryOfStrings.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DictionaryOfStrings.swift; sourceTree = "<group>"; };
+		0E94E1E61EB63939003F9C4D /* JsonParser.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = JsonParser.swift; sourceTree = "<group>"; };
+		0E94E1EF1EB647EB003F9C4D /* ShowFilteredResultsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ShowFilteredResultsViewController.swift; sourceTree = "<group>"; };
+		0E94E1F21EB6484C003F9C4D /* TopResultsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TopResultsViewController.swift; sourceTree = "<group>"; };
+		0E94E1F51EB64885003F9C4D /* ResultDetailViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ResultDetailViewController.swift; sourceTree = "<group>"; };
+		0E94E1F81EB6499D003F9C4D /* PokemonCollectionViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = PokemonCollectionViewCell.xib; sourceTree = "<group>"; };
+		0E94E1FB1EB64A78003F9C4D /* PokemonCollectionViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PokemonCollectionViewCell.swift; sourceTree = "<group>"; };
+		0E94E1FE1EB64FB4003F9C4D /* StyleConstants.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StyleConstants.swift; sourceTree = "<group>"; };
+		0E94E2001EB65A5A003F9C4D /* PokemonImageCollectionViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = PokemonImageCollectionViewCell.xib; sourceTree = "<group>"; };
+		0E94E2021EB65A7B003F9C4D /* PokemonImageCollectionViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PokemonImageCollectionViewCell.swift; sourceTree = "<group>"; };
+		0E94E2041EB730FD003F9C4D /* TypeCategoryCollectionViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = TypeCategoryCollectionViewCell.xib; sourceTree = "<group>"; };
+		0E94E2061EB731A1003F9C4D /* TypeCategoryCollectionViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TypeCategoryCollectionViewCell.swift; sourceTree = "<group>"; };
+		0E94E2081EB7547C003F9C4D /* DetailPokemonView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = DetailPokemonView.xib; sourceTree = "<group>"; };
+		0E94E20A1EB7576E003F9C4D /* PokemonDetailView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PokemonDetailView.swift; sourceTree = "<group>"; };
+		19683C679D3F3133D12F5AB5 /* Pods-GirlsOnlyComicBooks.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GirlsOnlyComicBooks.release.xcconfig"; path = "Pods/Target Support Files/Pods-GirlsOnlyComicBooks/Pods-GirlsOnlyComicBooks.release.xcconfig"; sourceTree = "<group>"; };
+		414BFF352349CE0CF5F9C51F /* Pods_GirlsOnlyComicBooksUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_GirlsOnlyComicBooksUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		588A0218F820270BABBFEC21 /* Pods_GirlsOnlyComicBooks.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_GirlsOnlyComicBooks.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		65D90DB873EF828E8628B227 /* Pods-GirlsOnlyComicBooksUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GirlsOnlyComicBooksUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-GirlsOnlyComicBooksUITests/Pods-GirlsOnlyComicBooksUITests.release.xcconfig"; sourceTree = "<group>"; };
+		D4B3252A0E56F7F2E0529E83 /* Pods-GirlsOnlyComicBooksTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GirlsOnlyComicBooksTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-GirlsOnlyComicBooksTests/Pods-GirlsOnlyComicBooksTests.release.xcconfig"; sourceTree = "<group>"; };
+		D848C297FE4E1BEBC33687D3 /* Pods-GirlsOnlyComicBooksTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GirlsOnlyComicBooksTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-GirlsOnlyComicBooksTests/Pods-GirlsOnlyComicBooksTests.debug.xcconfig"; sourceTree = "<group>"; };
+		E29C3A7F3BAB7CC760219712 /* Pods_GirlsOnlyComicBooksTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_GirlsOnlyComicBooksTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		E3734AF75221F049C115AEFB /* Pods-GirlsOnlyComicBooks.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GirlsOnlyComicBooks.debug.xcconfig"; path = "Pods/Target Support Files/Pods-GirlsOnlyComicBooks/Pods-GirlsOnlyComicBooks.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +118,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9233862CA15AAD209A1EAA16 /* Pods_GirlsOnlyComicBooks.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -63,6 +126,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3C8C364A6415BDE3313E0348 /* Pods_GirlsOnlyComicBooksTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -70,12 +134,44 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				05ED9FD5C4EC582D728C1A28 /* Pods_GirlsOnlyComicBooksUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		0E0328E31EB4E9FB0011B802 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				0E94E1EE1EB6478A003F9C4D /* Cells */,
+				0E94E1ED1EB64784003F9C4D /* Nib */,
+				0E94E20A1EB7576E003F9C4D /* PokemonDetailView.swift */,
+			);
+			name = Views;
+			sourceTree = "<group>";
+		};
+		0E0328E41EB4EA050011B802 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				0E94E1CA1EB5CB88003F9C4D /* ComicBookModels.swift */,
+				0E94E1CD1EB5F08B003F9C4D /* PokemonModel.swift */,
+			);
+			name = Models;
+			sourceTree = "<group>";
+		};
+		0E0328E61EB4EA210011B802 /* View Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				0E756B741EB4E8160006A7E0 /* CollectionViewController.swift */,
+				0E756B761EB4E8160006A7E0 /* SearchFilterViewController.swift */,
+				0E94E1EF1EB647EB003F9C4D /* ShowFilteredResultsViewController.swift */,
+				0E94E1F21EB6484C003F9C4D /* TopResultsViewController.swift */,
+				0E94E1F51EB64885003F9C4D /* ResultDetailViewController.swift */,
+			);
+			name = "View Controllers";
+			sourceTree = "<group>";
+		};
 		0E756B661EB4E8150006A7E0 = {
 			isa = PBXGroup;
 			children = (
@@ -83,6 +179,8 @@
 				0E756B881EB4E8170006A7E0 /* GirlsOnlyComicBooksTests */,
 				0E756B931EB4E8170006A7E0 /* GirlsOnlyComicBooksUITests */,
 				0E756B701EB4E8160006A7E0 /* Products */,
+				A96292E58115532A983E1D73 /* Pods */,
+				9633A289DC78365A7C6DA6FC /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -99,9 +197,12 @@
 		0E756B711EB4E8160006A7E0 /* GirlsOnlyComicBooks */ = {
 			isa = PBXGroup;
 			children = (
+				0E0328E61EB4EA210011B802 /* View Controllers */,
+				0E0328E31EB4E9FB0011B802 /* Views */,
+				0E94E1D01EB60629003F9C4D /* ViewModels */,
+				0E0328E41EB4EA050011B802 /* Models */,
+				0E94E1E31EB63925003F9C4D /* API */,
 				0E756B721EB4E8160006A7E0 /* AppDelegate.swift */,
-				0E756B741EB4E8160006A7E0 /* FirstViewController.swift */,
-				0E756B761EB4E8160006A7E0 /* SecondViewController.swift */,
 				0E756B781EB4E8160006A7E0 /* Main.storyboard */,
 				0E756B7B1EB4E8160006A7E0 /* Assets.xcassets */,
 				0E756B7D1EB4E8160006A7E0 /* LaunchScreen.storyboard */,
@@ -128,6 +229,70 @@
 			path = GirlsOnlyComicBooksUITests;
 			sourceTree = "<group>";
 		};
+		0E94E1D01EB60629003F9C4D /* ViewModels */ = {
+			isa = PBXGroup;
+			children = (
+				0E94E1D11EB60684003F9C4D /* SearchFilterViewModel.swift */,
+				0E94E1D41EB6069B003F9C4D /* CollectionViewModel.swift */,
+			);
+			name = ViewModels;
+			sourceTree = "<group>";
+		};
+		0E94E1E31EB63925003F9C4D /* API */ = {
+			isa = PBXGroup;
+			children = (
+				0E94E1E41EB63939003F9C4D /* AlamoFireHandler.swift */,
+				0E94E1E51EB63939003F9C4D /* DictionaryOfStrings.swift */,
+				0E94E1E61EB63939003F9C4D /* JsonParser.swift */,
+				0E94E1FE1EB64FB4003F9C4D /* StyleConstants.swift */,
+			);
+			name = API;
+			sourceTree = "<group>";
+		};
+		0E94E1ED1EB64784003F9C4D /* Nib */ = {
+			isa = PBXGroup;
+			children = (
+				0E94E1F81EB6499D003F9C4D /* PokemonCollectionViewCell.xib */,
+				0E94E2001EB65A5A003F9C4D /* PokemonImageCollectionViewCell.xib */,
+				0E94E2041EB730FD003F9C4D /* TypeCategoryCollectionViewCell.xib */,
+				0E94E2081EB7547C003F9C4D /* DetailPokemonView.xib */,
+			);
+			name = Nib;
+			sourceTree = "<group>";
+		};
+		0E94E1EE1EB6478A003F9C4D /* Cells */ = {
+			isa = PBXGroup;
+			children = (
+				0E94E1FB1EB64A78003F9C4D /* PokemonCollectionViewCell.swift */,
+				0E94E2021EB65A7B003F9C4D /* PokemonImageCollectionViewCell.swift */,
+				0E94E2061EB731A1003F9C4D /* TypeCategoryCollectionViewCell.swift */,
+			);
+			name = Cells;
+			sourceTree = "<group>";
+		};
+		9633A289DC78365A7C6DA6FC /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				588A0218F820270BABBFEC21 /* Pods_GirlsOnlyComicBooks.framework */,
+				E29C3A7F3BAB7CC760219712 /* Pods_GirlsOnlyComicBooksTests.framework */,
+				414BFF352349CE0CF5F9C51F /* Pods_GirlsOnlyComicBooksUITests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		A96292E58115532A983E1D73 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				E3734AF75221F049C115AEFB /* Pods-GirlsOnlyComicBooks.debug.xcconfig */,
+				19683C679D3F3133D12F5AB5 /* Pods-GirlsOnlyComicBooks.release.xcconfig */,
+				D848C297FE4E1BEBC33687D3 /* Pods-GirlsOnlyComicBooksTests.debug.xcconfig */,
+				D4B3252A0E56F7F2E0529E83 /* Pods-GirlsOnlyComicBooksTests.release.xcconfig */,
+				0D5AFA77DC508DF0446D2F6F /* Pods-GirlsOnlyComicBooksUITests.debug.xcconfig */,
+				65D90DB873EF828E8628B227 /* Pods-GirlsOnlyComicBooksUITests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -135,9 +300,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 0E756B991EB4E8170006A7E0 /* Build configuration list for PBXNativeTarget "GirlsOnlyComicBooks" */;
 			buildPhases = (
+				C3C79BCA4B25E20F2001539C /* [CP] Check Pods Manifest.lock */,
 				0E756B6B1EB4E8150006A7E0 /* Sources */,
 				0E756B6C1EB4E8150006A7E0 /* Frameworks */,
 				0E756B6D1EB4E8150006A7E0 /* Resources */,
+				C9EDB90C8DC0EC63E05F2CBC /* [CP] Embed Pods Frameworks */,
+				2B5E25D901A509F4A9428DE4 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -152,9 +320,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 0E756B9C1EB4E8170006A7E0 /* Build configuration list for PBXNativeTarget "GirlsOnlyComicBooksTests" */;
 			buildPhases = (
+				91D94013FF34D22317533E6C /* [CP] Check Pods Manifest.lock */,
 				0E756B811EB4E8170006A7E0 /* Sources */,
 				0E756B821EB4E8170006A7E0 /* Frameworks */,
 				0E756B831EB4E8170006A7E0 /* Resources */,
+				DEB1EE48A924B582568BF765 /* [CP] Embed Pods Frameworks */,
+				710E1EC183483C443643B66C /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -170,9 +341,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 0E756B9F1EB4E8170006A7E0 /* Build configuration list for PBXNativeTarget "GirlsOnlyComicBooksUITests" */;
 			buildPhases = (
+				EB95416073FB4529F0AFC30B /* [CP] Check Pods Manifest.lock */,
 				0E756B8C1EB4E8170006A7E0 /* Sources */,
 				0E756B8D1EB4E8170006A7E0 /* Frameworks */,
 				0E756B8E1EB4E8170006A7E0 /* Resources */,
+				BF5D5B5497125A4133B5D909 /* [CP] Embed Pods Frameworks */,
+				CD516880487D7534E9ECE4D1 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -238,8 +412,12 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0E94E2051EB730FD003F9C4D /* TypeCategoryCollectionViewCell.xib in Resources */,
 				0E756B7F1EB4E8160006A7E0 /* LaunchScreen.storyboard in Resources */,
 				0E756B7C1EB4E8160006A7E0 /* Assets.xcassets in Resources */,
+				0E94E2091EB7547C003F9C4D /* DetailPokemonView.xib in Resources */,
+				0E94E1F91EB6499D003F9C4D /* PokemonCollectionViewCell.xib in Resources */,
+				0E94E2011EB65A5A003F9C4D /* PokemonImageCollectionViewCell.xib in Resources */,
 				0E756B7A1EB4E8160006A7E0 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -248,6 +426,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0E94E1FA1EB6499D003F9C4D /* PokemonCollectionViewCell.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -260,14 +439,167 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		2B5E25D901A509F4A9428DE4 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-GirlsOnlyComicBooks/Pods-GirlsOnlyComicBooks-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		710E1EC183483C443643B66C /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-GirlsOnlyComicBooksTests/Pods-GirlsOnlyComicBooksTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		91D94013FF34D22317533E6C /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		BF5D5B5497125A4133B5D909 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-GirlsOnlyComicBooksUITests/Pods-GirlsOnlyComicBooksUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C3C79BCA4B25E20F2001539C /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		C9EDB90C8DC0EC63E05F2CBC /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-GirlsOnlyComicBooks/Pods-GirlsOnlyComicBooks-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		CD516880487D7534E9ECE4D1 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-GirlsOnlyComicBooksUITests/Pods-GirlsOnlyComicBooksUITests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		DEB1EE48A924B582568BF765 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-GirlsOnlyComicBooksTests/Pods-GirlsOnlyComicBooksTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		EB95416073FB4529F0AFC30B /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		0E756B6B1EB4E8150006A7E0 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				0E756B771EB4E8160006A7E0 /* SecondViewController.swift in Sources */,
+				0E94E1D21EB60684003F9C4D /* SearchFilterViewModel.swift in Sources */,
+				0E756B771EB4E8160006A7E0 /* SearchFilterViewController.swift in Sources */,
+				0E94E2031EB65A7B003F9C4D /* PokemonImageCollectionViewCell.swift in Sources */,
+				0E94E1D51EB6069B003F9C4D /* CollectionViewModel.swift in Sources */,
+				0E94E1F01EB647EB003F9C4D /* ShowFilteredResultsViewController.swift in Sources */,
 				0E756B731EB4E8160006A7E0 /* AppDelegate.swift in Sources */,
-				0E756B751EB4E8160006A7E0 /* FirstViewController.swift in Sources */,
+				0E94E1CB1EB5CB88003F9C4D /* ComicBookModels.swift in Sources */,
+				0E94E1CE1EB5F08B003F9C4D /* PokemonModel.swift in Sources */,
+				0E756B751EB4E8160006A7E0 /* CollectionViewController.swift in Sources */,
+				0E94E1E71EB63939003F9C4D /* AlamoFireHandler.swift in Sources */,
+				0E94E1F31EB6484C003F9C4D /* TopResultsViewController.swift in Sources */,
+				0E94E20B1EB7576E003F9C4D /* PokemonDetailView.swift in Sources */,
+				0E94E1FF1EB64FB4003F9C4D /* StyleConstants.swift in Sources */,
+				0E94E1FC1EB64A78003F9C4D /* PokemonCollectionViewCell.swift in Sources */,
+				0E94E1F61EB64885003F9C4D /* ResultDetailViewController.swift in Sources */,
+				0E94E1EB1EB63939003F9C4D /* JsonParser.swift in Sources */,
+				0E94E2071EB731A1003F9C4D /* TypeCategoryCollectionViewCell.swift in Sources */,
+				0E94E1E91EB63939003F9C4D /* DictionaryOfStrings.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -275,7 +607,18 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0E94E1CC1EB5CB88003F9C4D /* ComicBookModels.swift in Sources */,
+				0E94E1F41EB6484C003F9C4D /* TopResultsViewController.swift in Sources */,
+				0E94E1EA1EB63939003F9C4D /* DictionaryOfStrings.swift in Sources */,
+				0E94E1F71EB64885003F9C4D /* ResultDetailViewController.swift in Sources */,
+				0E94E1CF1EB5F08B003F9C4D /* PokemonModel.swift in Sources */,
+				0E94E1F11EB647EB003F9C4D /* ShowFilteredResultsViewController.swift in Sources */,
+				0E94E1D31EB60684003F9C4D /* SearchFilterViewModel.swift in Sources */,
 				0E756B8A1EB4E8170006A7E0 /* GirlsOnlyComicBooksTests.swift in Sources */,
+				0E94E1D61EB6069B003F9C4D /* CollectionViewModel.swift in Sources */,
+				0E94E1E81EB63939003F9C4D /* AlamoFireHandler.swift in Sources */,
+				0E94E1FD1EB64A78003F9C4D /* PokemonCollectionViewCell.swift in Sources */,
+				0E94E1EC1EB63939003F9C4D /* JsonParser.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -419,7 +762,9 @@
 		};
 		0E756B9A1EB4E8170006A7E0 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = E3734AF75221F049C115AEFB /* Pods-GirlsOnlyComicBooks.debug.xcconfig */;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = 95TL8MY33U;
 				INFOPLIST_FILE = GirlsOnlyComicBooks/Info.plist;
@@ -432,7 +777,9 @@
 		};
 		0E756B9B1EB4E8170006A7E0 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 19683C679D3F3133D12F5AB5 /* Pods-GirlsOnlyComicBooks.release.xcconfig */;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = 95TL8MY33U;
 				INFOPLIST_FILE = GirlsOnlyComicBooks/Info.plist;
@@ -445,6 +792,7 @@
 		};
 		0E756B9D1EB4E8170006A7E0 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = D848C297FE4E1BEBC33687D3 /* Pods-GirlsOnlyComicBooksTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -460,6 +808,7 @@
 		};
 		0E756B9E1EB4E8170006A7E0 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = D4B3252A0E56F7F2E0529E83 /* Pods-GirlsOnlyComicBooksTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -475,6 +824,7 @@
 		};
 		0E756BA01EB4E8170006A7E0 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0D5AFA77DC508DF0446D2F6F /* Pods-GirlsOnlyComicBooksUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				DEVELOPMENT_TEAM = 95TL8MY33U;
@@ -489,6 +839,7 @@
 		};
 		0E756BA11EB4E8170006A7E0 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 65D90DB873EF828E8628B227 /* Pods-GirlsOnlyComicBooksUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				DEVELOPMENT_TEAM = 95TL8MY33U;
@@ -520,6 +871,7 @@
 				0E756B9B1EB4E8170006A7E0 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		0E756B9C1EB4E8170006A7E0 /* Build configuration list for PBXNativeTarget "GirlsOnlyComicBooksTests" */ = {
 			isa = XCConfigurationList;
@@ -528,6 +880,7 @@
 				0E756B9E1EB4E8170006A7E0 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		0E756B9F1EB4E8170006A7E0 /* Build configuration list for PBXNativeTarget "GirlsOnlyComicBooksUITests" */ = {
 			isa = XCConfigurationList;
@@ -536,6 +889,7 @@
 				0E756BA11EB4E8170006A7E0 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
