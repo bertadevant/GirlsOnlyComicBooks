@@ -10,18 +10,13 @@
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <objects>
-        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="TypeCategoryCollectionViewCell" customModule="GirlsOnlyComicBooks" customModuleProvider="target">
-            <connections>
-                <outlet property="backgroundImage" destination="NHo-MH-vdS" id="zbP-aP-ywJ"/>
-                <outlet property="typeName" destination="AwL-WC-nMc" id="bmS-CT-TuJ"/>
-            </connections>
-        </placeholder>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="TypeCategoryCollectionViewCell" customModule="GirlsOnlyComicBooks" customModuleProvider="target"/>
         <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
         <view contentMode="scaleToFill" id="iN0-l3-epB" customClass="TypeCategoryCollectionViewCell" customModule="GirlsOnlyComicBooks" customModuleProvider="target">
             <rect key="frame" x="0.0" y="0.0" width="482" height="148"/>
             <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
             <subviews>
-                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" translatesAutoresizingMaskIntoConstraints="NO" id="NHo-MH-vdS">
+                <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" translatesAutoresizingMaskIntoConstraints="NO" id="NHo-MH-vdS">
                     <rect key="frame" x="0.0" y="0.0" width="240" height="128"/>
                 </imageView>
                 <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="AwL-WC-nMc">
@@ -42,6 +37,10 @@
                 <constraint firstItem="AwL-WC-nMc" firstAttribute="width" secondItem="iN0-l3-epB" secondAttribute="width" multiplier="0.8" id="WCb-eh-LMg"/>
             </constraints>
             <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+            <connections>
+                <outlet property="backgroundImage" destination="NHo-MH-vdS" id="EC9-8U-ocE"/>
+                <outlet property="typeName" destination="AwL-WC-nMc" id="OwO-Z1-CYo"/>
+            </connections>
             <point key="canvasLocation" x="89" y="-206"/>
         </view>
     </objects>

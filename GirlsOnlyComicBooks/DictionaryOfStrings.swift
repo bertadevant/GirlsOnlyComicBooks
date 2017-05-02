@@ -72,4 +72,5 @@ struct NibNames {
     static let CollectionImageCell = "PokemonImageCollectionViewCell"
     static let CollectionCell = "PokemonCollectionViewCell"
     static let TypeCategoryCell = "TypeCategoryCollectionViewCell"
+    static let DetailViewNib = "DetailPokemonView"
 }

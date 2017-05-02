@@ -9,11 +9,21 @@
 import UIKit
 
 class ResultDetailViewController: UIViewController {
+    
+    var pokemonToShow: Pokemon?
+    var detailView: PokemonDetailView?
 
     override func viewDidLoad() {
         super.viewDidLoad()
-
-        // Do any additional setup after loading the view.
+        
+        detailView = Bundle.main.loadNibNamed(NibNames.DetailViewNib, owner: self, options: nil)?.first as? PokemonDetailView
+        guard let pokemonToShow = pokemonToShow else {
+            //if we did not succesfully pass it dismiss and go back
+            self.dismiss(animated: true, completion: nil)
+            return
+        }
+        detailView?.setupUIElements(pokemon: pokemonToShow)
+       
     }
 
     override func didReceiveMemoryWarning() {
@@ -21,15 +31,5 @@ class ResultDetailViewController: UIViewController {
         // Dispose of any resources that can be recreated.
     }
     
-
-    /*
-    // MARK: - Navigation
-
-    // In a storyboard-based application, you will often want to do a little preparation before navigation
-    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
-        // Get the new view controller using segue.destinationViewController.
-        // Pass the selected object to the new view controller.
-    }
-    */
-
+    
 }

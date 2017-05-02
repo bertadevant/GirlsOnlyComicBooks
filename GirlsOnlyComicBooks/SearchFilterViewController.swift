@@ -11,7 +11,7 @@ import UIKit
 class SearchFilterViewController: UIViewController, UISearchResultsUpdating, UISearchBarDelegate {
 
     
-    private var pokemonType: Type?
+    fileprivate var pokemonType: Type?
     @IBOutlet weak var collectionView: UICollectionView!
     fileprivate var collectionViewElements: [Type] = []
     private let searchViewModel = SearchFilterViewModel()
@@ -24,7 +24,7 @@ class SearchFilterViewController: UIViewController, UISearchResultsUpdating, UIS
         collectionView.dataSource = self
         collectionView.register(UINib(nibName: NibNames.TypeCategoryCell, bundle: nil), forCellWithReuseIdentifier: ReuseID.catgeoryTypeCell)
         setUpSearchController()
-        collectionViewElements = searchViewModel.types
+        collectionViewElements = SearchFilterViewModel.types
     }
 
     override func didReceiveMemoryWarning() {
@@ -71,6 +71,13 @@ class SearchFilterViewController: UIViewController, UISearchResultsUpdating, UIS
         //we leave it empty because I just want to do a call at the end
     }
 
+    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
+        //we prepare for segue to pass on
+        if segue.identifier == Segues.showFilteredResults {
+            let filteredResultsVC = segue.destination as? ShowFilteredResultsViewController
+            filteredResultsVC?.pokemonType = pokemonType
+        }
+    }
     
     
 }
@@ -80,10 +87,8 @@ extension SearchFilterViewController: UICollectionViewDataSource, UICollectionVi
     func collectionView(_ collectionView: UICollectionView, didSelectItemAt indexPath: IndexPath) {
         
         let typeSelected = collectionViewElements[indexPath.row]
-        let storyboard = UIStoryboard(name: "Main", bundle: nil)
-        guard let showResultsVC = storyboard.instantiateViewController(withIdentifier: ViewControllerID.ShowFilteredResultsVC) as? ShowFilteredResultsViewController else { return }
-        showResultsVC.pokemonType = typeSelected
-        self.performSegue(withIdentifier: Segues.especificResultsContainer, sender: self)
+        self.pokemonType = typeSelected
+        self.performSegue(withIdentifier: Segues.showFilteredResults, sender: self)
         
     }
     
@@ -101,4 +106,32 @@ extension SearchFilterViewController: UICollectionViewDataSource, UICollectionVi
 
     }
 }
+
+extension SearchFilterViewController: UICollectionViewDelegateFlowLayout {
+    
+    func collectionView(_ collectionView: UICollectionView, layout collectionViewLayout: UICollectionViewLayout, sizeForItemAt indexPath: IndexPath) -> CGSize {
+        
+        var heightOfColums: CGFloat = 0
+        var widthOfColums: CGFloat = self.view.bounds.width/2-12.0
+        let marginsInsets: CGFloat = 12
+        //self.view.bounds.width < self.view.bounds.height  == portrait mode
+        
+        switch self.traitCollection.horizontalSizeClass {
+        //iphone == compact width on portrait and compact height on landscape
+        case .compact:
+            //tableRow almost look for iphone
+            widthOfColums = self.view.bounds.width
+            heightOfColums = (widthOfColums * 0.35)
+        case .regular:
+            //2 columns for Ipad
+            widthOfColums = self.view.bounds.width/2 - marginsInsets
+            heightOfColums = (widthOfColums * 0.35)
+        default:
+            break
+        }
+        //        return (self.view.bounds.width < self.view.bounds.height) ? CGSize(width: widthOfColums , height: heightOfColums) : CGSize(width: self.view.bounds.width/(numberOfColumns+1)-12.0, height: 100.0)
+        return CGSize(width: widthOfColums , height: heightOfColums)
+    }
+}
+
 

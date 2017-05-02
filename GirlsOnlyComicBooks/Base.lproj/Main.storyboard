@@ -7,6 +7,7 @@
         <deployment identifier="iOS"/>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="12088"/>
         <capability name="Aspect ratio constraints" minToolsVersion="5.1"/>
+        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <scenes>
@@ -38,12 +39,12 @@
                         <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <constraints>
                             <constraint firstItem="80i-li-gaA" firstAttribute="top" secondItem="lzJ-3d-8TA" secondAttribute="bottom" id="0KF-jN-gNh"/>
+                            <constraint firstItem="lzJ-3d-8TA" firstAttribute="top" secondItem="tsR-hK-woN" secondAttribute="topMargin" id="6x5-nM-PVK"/>
                             <constraint firstItem="lzJ-3d-8TA" firstAttribute="leading" secondItem="tsR-hK-woN" secondAttribute="leading" id="7ey-v1-aza"/>
                             <constraint firstAttribute="trailing" secondItem="lzJ-3d-8TA" secondAttribute="trailing" id="GL1-Cx-Lmv"/>
                             <constraint firstAttribute="trailing" secondItem="80i-li-gaA" secondAttribute="trailing" id="HOH-Bg-rWv"/>
                             <constraint firstItem="4ug-Mw-9AY" firstAttribute="top" secondItem="80i-li-gaA" secondAttribute="bottom" id="Zia-p1-GYl"/>
                             <constraint firstItem="80i-li-gaA" firstAttribute="leading" secondItem="tsR-hK-woN" secondAttribute="leading" id="iSb-dw-kPK"/>
-                            <constraint firstItem="lzJ-3d-8TA" firstAttribute="top" secondItem="tsR-hK-woN" secondAttribute="top" id="j7O-k4-1Xx"/>
                         </constraints>
                     </view>
                     <tabBarItem key="tabBarItem" title="First" image="first" id="acW-dT-cKf"/>
@@ -65,7 +66,7 @@
                         <viewControllerLayoutGuide type="bottom" id="tml-Z6-PVI"/>
                     </layoutGuides>
                     <view key="view" contentMode="scaleToFill" id="Htk-Mv-293">
-                        <rect key="frame" x="0.0" y="0.0" width="375" height="493"/>
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <collectionView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" misplaced="YES" dataMode="prototypes" translatesAutoresizingMaskIntoConstraints="NO" id="xgS-Jw-TOh">
@@ -115,7 +116,7 @@
                         <viewControllerLayoutGuide type="bottom" id="108-e5-88Q"/>
                     </layoutGuides>
                     <view key="view" contentMode="scaleToFill" id="1m5-Qh-YC7">
-                        <rect key="frame" x="0.0" y="0.0" width="375" height="493"/>
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                     </view>
@@ -216,6 +217,10 @@
         <scene sceneID="zXj-hm-NqP">
             <objects>
                 <viewController storyboardIdentifier="ShowFilteredResultsVC" id="tkj-ZS-Q7R" customClass="ShowFilteredResultsViewController" customModule="GirlsOnlyComicBooks" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="vZJ-ys-13a"/>
+                        <viewControllerLayoutGuide type="bottom" id="dK9-4g-9mX"/>
+                    </layoutGuides>
                     <view key="view" contentMode="scaleToFill" id="Tvl-T9-Ag5">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -263,6 +268,6 @@
         <image name="second" width="30" height="30"/>
     </resources>
     <inferredMetricsTieBreakers>
-        <segue reference="MBa-I8-OXa"/>
+        <segue reference="hEf-nr-Yg1"/>
     </inferredMetricsTieBreakers>
 </document>

@@ -40,7 +40,7 @@ class PokemonCollectionViewCell: UICollectionViewCell {
             pokemonType1.text = firstType.rawValue
             pokemonType1.textColor = .white
             pokemonType1.backgroundColor = firstType.getColor()
-        } else { pokemonType1.isHidden = true }
+        }
         
         //PokemonType Label2
         if pokemon.type.indices.contains(1) {
@@ -48,7 +48,13 @@ class PokemonCollectionViewCell: UICollectionViewCell {
             pokemonType2.text = secondType.rawValue
             pokemonType2.textColor = .white
             pokemonType2.backgroundColor = secondType.getColor()
-        } else { pokemonType2.isHidden = true }
+        }
+
+        //Add border to the bottom of the view
+        let border = CALayer()
+        border.backgroundColor = Colors.greyColor.cgColor
+        border.frame = CGRect(x: 0, y: self.frame.size.height, width: self.frame.size.width, height: 0.5)
+        self.layer.addSublayer(border)
 
         
     }

@@ -22,7 +22,6 @@ class TypeCategoryCollectionViewCell: UICollectionViewCell {
         //Background Image
         backgroundImage.image = type.getBackGroundImage()
         backgroundImage.alpha = 0.5
-        backgroundImage.contentMode = .scaleAspectFill
         
         //Name Label
         typeName.text = type.rawValue

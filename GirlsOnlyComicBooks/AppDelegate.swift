@@ -16,9 +16,10 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
 
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplicationLaunchOptionsKey: Any]?) -> Bool {
         // Override point for customization after application launch.
+
         
-        UINavigationController?.navigationBar.barTintColor = Colors.pokemonBlueColor
-        UITabBarController?.tabBar.barTintColor = Colors.pokemonYellowColor
+        UITabBarItem.appearance().setTitleTextAttributes([NSForegroundColorAttributeName: Colors.pokemonYellowColor], for: .selected)
+        UITabBar.appearance().tintColor = Colors.pokemonYellowColor
         
         return true
     }

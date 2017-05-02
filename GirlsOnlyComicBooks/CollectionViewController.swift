@@ -24,6 +24,8 @@ class CollectionViewController: UIViewController {
     //we will pass the pokemon type from the prvious controller. If it nil it means we show the Top 25
     var pokemonTypeToShow: Type?
     @IBOutlet weak var collectionView: UICollectionView!
+    var pokemonToShow: Pokemon?
+    
     
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -71,12 +73,21 @@ class CollectionViewController: UIViewController {
             onNext: { [unowned self] indexPath in
                 //show Full Details of the selected pokemon
                 let selectedPokemon = self.dataSource[indexPath.section].items[indexPath.row]
+                self.pokemonToShow = selectedPokemon
                 self.performSegue(withIdentifier: Segues.showFullDetails, sender: self)
                 
         })
         .addDisposableTo(disposeBag)
     }
 
+    
+    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
+        //we prepare for segue to pass on
+        if segue.identifier == Segues.showFullDetails {
+            let detailVC = segue.destination as? ResultDetailViewController
+            detailVC?.pokemonToShow = pokemonToShow
+        }
+    }
 }
 
 extension CollectionViewController: UIScrollViewDelegate {
@@ -92,7 +103,7 @@ extension CollectionViewController: UICollectionViewDelegateFlowLayout {
         let marginsInsets: CGFloat = 12
         //self.view.bounds.width < self.view.bounds.height  == portrait mode
         
-        switch self.traitCollection.verticalSizeClass {
+        switch self.traitCollection.horizontalSizeClass {
         //iphone == compact width on portrait and compact height on landscape
         case .compact:
             //tableRow almost look for iphone
