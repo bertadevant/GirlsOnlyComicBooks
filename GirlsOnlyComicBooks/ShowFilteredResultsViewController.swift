@@ -15,8 +15,7 @@ class ShowFilteredResultsViewController: UIViewController {
     
     override func viewDidLoad() {
         super.viewDidLoad()
-
-        // Do any additional setup after loading the view.
+        self.title = pokemonType?.rawValue
     }
 
     override func didReceiveMemoryWarning() {

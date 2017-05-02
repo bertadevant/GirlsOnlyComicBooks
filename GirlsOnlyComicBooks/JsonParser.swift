@@ -96,8 +96,8 @@ class JsonParser {
         var idArray: [Int] = []
         
         for jsonArray in json[JSONKeys.pokemon].arrayValue {
-            var urlOfPokemon = jsonArray[JSONKeys.pokemon][JSONKeys.url].stringValue
-            let url = urlOfPokemon.remove(at: urlOfPokemon.characters.count)
+            let urlOfPokemon = jsonArray[JSONKeys.pokemon][JSONKeys.url].stringValue
+            let url = urlOfPokemon.substring(to: urlOfPokemon.index(before: urlOfPokemon.endIndex))
             guard let number = url.components(separatedBy: "/").last else { return [] }
             guard let num = Int(number) else { return [] }
             idArray.append(num)

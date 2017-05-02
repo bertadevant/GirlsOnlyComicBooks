@@ -30,7 +30,7 @@ class PokemonCollectionViewCell: UICollectionViewCell {
         pokemonName.font = UIFont.systemFont(ofSize: 14, weight: UIFontWeightMedium)
         
         //Set up Number Label
-        pokemonNumber.text = "\(pokemon.id)"
+        pokemonNumber.text = "#\(pokemon.id)"
         pokemonNumber.textColor = Colors.greyColor
         pokemonNumber.font = UIFont.systemFont(ofSize: 12, weight: UIFontWeightRegular)
         

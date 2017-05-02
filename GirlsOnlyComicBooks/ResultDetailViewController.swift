@@ -17,12 +17,14 @@ class ResultDetailViewController: UIViewController {
         super.viewDidLoad()
         
         detailView = Bundle.main.loadNibNamed(NibNames.DetailViewNib, owner: self, options: nil)?.first as? PokemonDetailView
+        self.view.addSubview(detailView!)
         guard let pokemonToShow = pokemonToShow else {
             //if we did not succesfully pass it dismiss and go back
             self.dismiss(animated: true, completion: nil)
             return
         }
         detailView?.setupUIElements(pokemon: pokemonToShow)
+        self.title = pokemonToShow.name
        
     }
 

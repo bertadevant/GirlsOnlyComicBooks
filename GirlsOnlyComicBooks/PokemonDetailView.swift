@@ -34,14 +34,52 @@ class PokemonDetailView: UIView {
         //set Up Name Label
         pokemonName.text = pokemon.name
         pokemonName.textColor = Colors.pokemonBlueColor
-        pokemonName.font = UIFont.systemFont(ofSize: 14, weight: UIFontWeightMedium)
+        pokemonName.font = UIFont.systemFont(ofSize: 16, weight: UIFontWeightMedium)
 
         //Set up Number Label
-        pokemonNumber.text = "\(pokemon.id)"
+        pokemonNumber.text = "#\(pokemon.id)"
         pokemonNumber.textColor = Colors.greyColor
         pokemonNumber.font = UIFont.systemFont(ofSize: 12, weight: UIFontWeightRegular)
         
         
+        //PokemonType Label1
+        if let firstType = pokemon.type.first {
+            pokemonType1.text = firstType.rawValue
+            pokemonType1.textColor = .white
+            pokemonType1.backgroundColor = firstType.getColor()
+        }
+        
+        //PokemonType Label2
+        if pokemon.type.indices.contains(1) {
+            let secondType = pokemon.type[1]
+            pokemonType2.text = secondType.rawValue
+            pokemonType2.textColor = .white
+            pokemonType2.backgroundColor = secondType.getColor()
+        }
+
+        
+        //POkemon Ability
+        if let firstAbility = pokemon.abilities.first {
+            pokemonAbility1.text = "Ability: \(firstAbility.name)"
+            pokemonAbility1.textColor = Colors.blackColor
+            pokemonAbility1.font = UIFont.systemFont(ofSize: 12, weight: UIFontWeightRegular)
+        }
+        
+        //POkemon Location 
+        var text = ""
+        for location in pokemon.location_area_encounters {
+            text += "\(location.location_area)-\(location.version_details) | "
+        }
+        pokemonLocation.text = text
+        pokemonLocation.textColor = Colors.greyColor
+        pokemonLocation.font = UIFont.systemFont(ofSize: 10, weight: UIFontWeightRegular)
+        
+        //Pokemon Moves
+        var movesText = ""
+        for move in pokemon.moves {
+            movesText += "\(move.name) | "
+        }
+        pokemonMoves.text = "Moves it can learn: \(movesText)"
         
         
     }
